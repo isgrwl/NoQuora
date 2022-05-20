@@ -2,9 +2,15 @@
   "name": "NoQuora",
   "description": "Removes Quora results from search.",
   "version": "1.0",
-  "manifest_version": 3,
+  "manifest_version": 2,
   "background": {
-    "service_worker": "background.js"
+    "scripts": ["background.js"],
+    "persistent": true
   },
-  "permissions": ["tabs", "webRequest", "https://*.google.com/*"]
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "tabs",
+    "*://*.google.com/*"
+  ]
 }
