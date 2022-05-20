@@ -19,7 +19,7 @@ chrome.webRequest.onBeforeRequest.addListener(
   ["blocking"]
 );
 
-//YzSd gsmt
+//listen on completed search requests
 chrome.webRequest.onCompleted.addListener(
   (details) => {
     //script to be ran in document:

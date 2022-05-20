@@ -1,7 +1,7 @@
 {
   "name": "NoQuora",
   "description": "Removes Quora results from search.",
-  "version": "1.0",
+  "version": "1",
   "manifest_version": 2,
   "background": {
     "scripts": ["background.js"],

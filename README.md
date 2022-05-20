@@ -1,4 +1,4 @@
-#NoQuora
+# NoQuora
 
 A quick Chrome extension to remove Quora from search results. It's written with MV2 because MV3 handicaps ad-blockers and this is kind of under that category.
 
